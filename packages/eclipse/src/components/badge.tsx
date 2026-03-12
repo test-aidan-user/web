@@ -6,7 +6,7 @@ import { cn } from "../lib/cn";
  * Define badge variants using CVA based on Figma design
  */
 const badgeVariants = cva(
-  "inline-flex flex-row justify-center items-center rounded-square text-xs font-medium",
+  "inline-flex flex-row justify-center items-center rounded-square type-text-xs-strong",
   {
     variants: {
       color: {
